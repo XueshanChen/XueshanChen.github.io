@@ -5,8 +5,8 @@
     <loc>https://example.com/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>https://example.com/hugo/</loc>
+    <loc>https://example.com/setup/</loc>
   </url><url>
-    <loc>https://example.com/bear/</loc>
+    <loc>https://example.com/tutorial/</loc>
   </url>
 </urlset>

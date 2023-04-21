@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Project Setup | Introduction GenGPT-X</title>
+<meta name="title" content="Project Setup" />
+<meta name="description" content="Project Structure There are two parts in this project. The front end and the back end. Both are located in the root of this project. Demostration Video of Website is the presentation and description of the website, the structure of the front and back ends will be explained in the section after this document.
+User Manual In this section, a tutorial on the use of this website and the basic setup of this project will be presented." />
+<meta name="keywords" content="" />
+
+
+<meta property="og:title" content="Project Setup" />
+<meta property="og:description" content="Project Structure There are two parts in this project. The front end and the back end. Both are located in the root of this project. Demostration Video of Website is the presentation and description of the website, the structure of the front and back ends will be explained in the section after this document.
+User Manual In this section, a tutorial on the use of this website and the basic setup of this project will be presented." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/setup/" /><meta property="og:image" content="https://example.com/images/share.png"/><meta property="article:section" content="" />
+
+<meta property="og:site_name" content="Introduction to GenGPT-X" />
+
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://example.com/images/share.png"/>
+
+<meta name="twitter:title" content="Project Setup"/>
+<meta name="twitter:description" content="Project Structure There are two parts in this project. The front end and the back end. Both are located in the root of this project. Demostration Video of Website is the presentation and description of the website, the structure of the front and back ends will be explained in the section after this document.
+User Manual In this section, a tutorial on the use of this website and the basic setup of this project will be presented."/>
+
+
+
+<meta itemprop="name" content="Project Setup">
+<meta itemprop="description" content="Project Structure There are two parts in this project. The front end and the back end. Both are located in the root of this project. Demostration Video of Website is the presentation and description of the website, the structure of the front and back ends will be explained in the section after this document.
+User Manual In this section, a tutorial on the use of this website and the basic setup of this project will be presented.">
+
+<meta itemprop="wordCount" content="628"><meta itemprop="image" content="https://example.com/images/share.png"/>
+<meta itemprop="keywords" content="" />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Introduction GenGPT-X</h2>
+</a>
+<nav><a href="/">Home</a>
+
+<a href="/setup/">Project Setup</a>
+
+<a href="/tutorial/">Tutorial</a>
+
+
+</nav>
+</header>
+  <main>
+
+<content>
+  <h1 id="project-structure">Project Structure</h1>
+<p>There are two parts in this project. The front end and the back end. Both are located in the root of this project. <code>Demostration Video of Website</code> is the presentation and description of the website, the structure of the front and back ends will be explained in the section after this document.</p>
+<h1 id="user-manual">User Manual</h1>
+<p>In this section, a tutorial on the use of this website and the basic setup of this project will be presented. The tutorial is also <a href="https://xueshanchen.github.io/">Online</a>.</p>
+<h2 id="project-setup">Project Setup</h2>
+<p>First, we will give a step-by-step tutorial on how to set up the project. The project is divided into two parts, the front end and the back end, both of which require a good environment to run successfully.</p>
+<h3 id="front-end-set-up">Front-end Set up</h3>
+<h4 id="structure">Structure</h4>
+<p>In a front-end project, the files we care about are in the <code>src</code> folder, where <code>views</code> stores the page files, the components they use are stored in the <code>components</code> folder, and <code>App.vue</code> is the entry file for the project, which navigates the user to the different The settings for the routes are in <code>router</code>. <code>main.js</code> is the project&rsquo;s configuration file, which includes the project&rsquo;s package configuration and some other basic configuration (e.g. pom.xml in Maven projects). Finally, <code>assets</code> holds the static resources used by the front end.</p>
+<h4 id="setup">Setup</h4>
+<p>Firstly, the front-end is a project based on the Vue framework, so you need to first download the Vue-related support, either via the <a href="https://www.npmjs.com/">npm</a> package or the <a href="https://yarnpkg.com/">yarn</a> package, with the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">npm install <span style="color:#f92672">-</span>g <span style="color:#a6e22e">@vue</span><span style="color:#f92672">/</span>cli
+<span style="color:#75715e"># OR</span>
+yarn <span style="color:#66d9ef">global</span> add <span style="color:#a6e22e">@vue</span><span style="color:#f92672">/</span>cli
+</code></pre></div><p>Afterwards, you can verify that the download has been successful by using the code below.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cl" data-lang="cl">vue --version
+</code></pre></div><p>If the application does not report any errors, then congratulations, you have successfully downloaded the Vue framework. Next, you need to open the following paths in order and in this path open the command line tool and enter the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cl" data-lang="cl">\20216479\Front-end\gen-gpt-x&gt; npm run-script build
+</code></pre></div><p>Next, you will need to wait a while. After <code>DONE</code> has been returned, the system has been successfully built. Next, simply enter the following command and the front end will run smoothly:</p>
+<pre tabindex="0"><code>\20216479\Front-end\gen-gpt-x&gt; npm run serve
+</code></pre><p>If there are no errors, the return will be as follows, meaning the front end has successfully run on the given port (usually at localhost:8080)</p>
+<pre tabindex="0"><code>      App running at:
+  - Local:   http://localhost:8080/
+  - Network: http://192.168.31.198:8080/
+</code></pre><p>Go to the link and the website will be displayed.</p>
+<h3 id="back-end-setup">Back-end Setup</h3>
+<h4 id="structure-1">Structure</h4>
+<p>In the back-end, the folder we need to focus on is the <code>src</code> folder, where in <code>main</code> we do the development and in <code>test</code> we do the testing. In <code>main</code>, the packages related to handling front and back-end interaction data are <code>controller</code>, <code>entity</code> and <code>service</code>. <code>SeverApplication</code> is the starting file for the project. <code>gengptx</code> contains the logic related to generating GPTs using GenGPT-X, while <code>gengpt</code> contains the logic for generating GPTs from the original GenGPT.</p>
+<h4 id="setup-1">Setup</h4>
+<p>In the back-end build, we rely on an IDEA called <a href="https://www.jetbrains.com/idea/">Intellij</a>. Therefore, if you don&rsquo;t have this IDEA locally, you need to go to the official website and download it.
+After a successful download, we click on open to open a project, where we select open &ldquo;Back-end&rdquo;, after successfully opening it click on the hammer shape in the top right corner to build the project, after that, we find the following file and click on the green triangle symbol on the left to run it:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">    <span style="color:#f92672">..</span>\<span style="color:#ae81ff">20216479</span>\Back<span style="color:#f92672">-</span>end\src\main\java\com\gengptx\sever\SeverApplication<span style="color:#f92672">.</span>java
+</code></pre></div><p>Once successfully run, you will see the following shape and display &ldquo;Started SeverApplication in xxx seconds (JVM running for 6.204)&rdquo;.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">    .   ____           
+   /\\ / ___&#39;_ __ _ _(_)_ __  __ _ 
+  ( ( )\___ | &#39;_ | &#39;_| | &#39;_ \/ _` |
+   \\/  ___)| |_)| | | | | || (_| |
+    &#39;  |____| .__|_| |_|_| |_|\__, |
+   =========|_|==============|___/ 
+   :: Spring Boot ::                     
+</code></pre></div>
+</content>
+<p>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+    
+</body>
+
+</html>
