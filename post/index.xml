@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post on Introduction GenGPT-X</title>
+    <link>https://example.com/post/</link>
+    <description>Recent content in Post on Introduction GenGPT-X</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2023 Xueshan Chen</copyright>
+    <lastBuildDate>Thu, 20 Apr 2023 10:33:37 +0800</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intro</title>
+      <link>https://example.com/post/intro/</link>
+      <pubDate>Thu, 20 Apr 2023 10:00:25 +0800</pubDate>
+      
+      <guid>https://example.com/post/intro/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,26 @@
     <description>Recent content on Introduction GenGPT-X</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>Copyright © 2023 Xueshan Chen</copyright><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2023 Xueshan Chen</copyright>
+    <lastBuildDate>Thu, 20 Apr 2023 10:33:37 +0800</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tracker</title>
+      <link>https://example.com/tracker/</link>
+      <pubDate>Tue, 09 May 2023 02:59:31 +0800</pubDate>
+      
+      <guid>https://example.com/tracker/</guid>
+      <description>This is the help of tracker &amp;ndash; An android</description>
+    </item>
+    
+    <item>
+      <title>Intro</title>
+      <link>https://example.com/post/intro/</link>
+      <pubDate>Thu, 20 Apr 2023 10:00:25 +0800</pubDate>
+      
+      <guid>https://example.com/post/intro/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Project Setup</title>
       <link>https://example.com/setup/</link>
