@@ -14,7 +14,10 @@
       <pubDate>Tue, 09 May 2023 02:59:31 +0800</pubDate>
       
       <guid>https://example.com/tracker/</guid>
-      <description>This is the help of tracker &amp;ndash; An android</description>
+      <description>This is the help of tracker &amp;ndash; An android app to track your outdoor activities.
+You can contact me via email
+index The index page have the main functionalities of this app.
+ Start: user can start track their activities by click this button Setting &amp;amp; Help menu, on the top left corner, user can visit these two buttons at any page View History: user can view the recoded histories of their activities, which was stored in the database.</description>
     </item>
     
     <item>
